@@ -7,7 +7,7 @@ export const WheaterApp = () => {
   const [weatherData, setWeatherData] = useState(null)
 
   const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-  const API_KEY = '25e0c7b370826eca8f0145844a81886a'
+  const API_KEY = 'YOUR_API_KEY'
   const difKelvin = 273.15 // Para lograr obtener grados celsious debemos restar este número a los grados Kelvin
 
   const fetchWeatherData = async () => {
